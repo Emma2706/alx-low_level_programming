@@ -1,6 +1,6 @@
 /*
  * File: 4-print_alphabt.c
- * Auth: Emma Chisenwa
+ * Auth: Eric Taruwinga
  */
 
 #include <stdio.h>

@@ -1,6 +1,6 @@
 /*
  * File: 8-print_base16.c
- * Auth: Emma Chisenwa
+ * Auth: Eric Taruwinga
  */
 
 #include <stdio.h>

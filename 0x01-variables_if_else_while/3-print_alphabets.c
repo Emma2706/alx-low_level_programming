@@ -1,6 +1,6 @@
 /*
  * File: 3-print_alphabets.c
- * Auth: Emma Chisenwa
+ * Auth: Eric Taruwinga
  */
 
 #include <stdio.h>
