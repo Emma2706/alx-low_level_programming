@@ -19,7 +19,7 @@ void rev_string(char *s)
 
 	while (k < j)
 	{
-		erc = s[k];
+		emma = s[k];
 		s[k] = s[j];
 		s[j] = emma;
 		k++;
