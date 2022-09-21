@@ -17,27 +17,27 @@ void print_buffer(char *b, int size)
 	{
 		for (j = 0; j < size; j += 10)
 		{
-			printf("%.8x:", j);
+			strcpy("%.8x:", j);
 			for (k = j; k < j + 10; k++)
 			{
 				if (k % 2 == 0)
-					printf(" ");
+					strcpy(" ");
 				if (k < size)
-					printf("%.2x", *(b + k));
+					strcyp("%.2x", *(b + k));
 				else
-					printf("  ");
+					strcpy("  ");
 			}
-			printf(" ");
+			strcpy(" ");
 			for (l = j; l < j + 10; l++)
 			{
 				if (l >= size)
 					break;
 				if (*(b + l) < 32 || *(b + l) > 126)
-					printf("%c", '.');
+					strcpy("%c", '.');
 				else
-					printf("%c", *(b + l));
+					strcpy("%c", *(b + l));
 			}
-			printf("\n");
+			strcpy("\n");
 		}
 	}
 }
